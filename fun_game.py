@@ -50,5 +50,5 @@ elif human_point < comp_point:
 else:
     print(f'your total points are {human_point} and computers total points are {comp_point}')
     print('both have equal points\n the match is drawn..')
-
+    
     print('thanks for playing!!!')
