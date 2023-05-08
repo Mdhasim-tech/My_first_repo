@@ -1,30 +1,3 @@
-'''import matplotlib.pyplot as plt
-import numpy as np
-from sklearn import datasets,linear_model
-from sklearn.metrics import mean_squared_error
-
-linnerud=datasets.load_linnerud()
-linnerud_x=linnerud.data[:,np.newaxis,2]
-
-
-
-linnerud_x_train=linnerud_x[:-10]
-linnerud_x_test=linnerud_x[-10:]
-print(len(linnerud_x_test))
-
-linnerud_y_train=linnerud.target[:-10]
-linnerud_y_test=linnerud.target[-10:]
-print(len(linnerud_y_test))
-
-model=linear_model.LinearRegression()
-model.fit(linnerud_x_train,linnerud_y_train)
-
-linnerud_y_predicted=model.predict(linnerud_x_test)
-print(linnerud_y_predicted)
-plt.scatter(linnerud_x_test,linnerud_y_test)
-plt.plot(linnerud_x_test,linnerud_y_predicted)
-plt.show()'''
-
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets,linear_model
